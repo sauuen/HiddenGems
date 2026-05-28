@@ -247,4 +247,4 @@ This means the GitHub repository contains the source code and example environmen
 
 The backend is already hosted on Render, so the frontend can be run locally without needing API keys on the examiner’s computer.
 
-If the backend appears offline at first, open the backend `/docs` page in a browser and wait a moment. Render’s free tier may need time to wake up the service.
+If the backend appears offline at first, just wait a bit. Render’s free tier may need time to wake up the service.
