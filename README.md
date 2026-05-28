@@ -13,33 +13,7 @@ The frontend only has `BACKEND_URL`. The OpenAI and Google Places keys stay insi
 
 ## Backend setup
 
-```bash
-cd backend
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-cp .env.example .env
-```
-
-Edit `backend/.env` and add your real keys:
-
-```env
-OPENAI_API_KEY=your_openai_api_key_here
-GOOGLE_PLACES_API_KEY=your_google_places_api_key_here
-OPENAI_MODEL=gpt-4.1-mini
-```
-
-Run backend:
-
-```bash
-uvicorn app:app --reload --host 127.0.0.1 --port 8000
-```
-
-Test backend:
-
-```bash
-curl http://127.0.0.1:8000/api/status
-```
+Backend is ran on Render, no need to think about it
 
 ## Frontend setup
 
