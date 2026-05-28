@@ -1,4 +1,4 @@
-# Hidden Gems — Frontend / Backend Exam Version
+# Hidden Gems
 
 This version separates the project into two parts so API keys are not shown in the frontend deliverable.
 
