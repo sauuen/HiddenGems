@@ -4,7 +4,7 @@
 
 - `frontend/` — Kivy app. It contains the UI, local favorites, local location selection, and calls the backend through HTTP.
 
-The frontend only has `BACKEND_URL`. The OpenAI and Google Places keys stay inside `backend/.env`, which is ignored by Git.
+The frontend only has `BACKEND_URL`. The OpenAI and Google Places keys is hidden and only ran through render
 
 ## Backend setup
 
