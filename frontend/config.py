@@ -20,4 +20,4 @@ DEFAULT_PREFS = {
 }
 
 # Frontend only knows where the backend is. It never stores API keys.
-BACKEND_URL = os.getenv("BACKEND_URL", "http://127.0.0.1:8000")
+BACKEND_URL = os.getenv("BACKEND_URL", "https://hiddengems-q3hk.onrender.com")
